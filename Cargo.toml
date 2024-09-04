@@ -1,0 +1,14 @@
+[package]
+name = "task-flow-poc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#task-flow = { git = "ssh://git@github.com/sombralibre/task-flow.git", branch = "master", version = "0.1.0" }
+task-flow = { path = "../task-flow"  }
+tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1"
+futures = "0.3"
+
+[[bin]]
+name = "app"
