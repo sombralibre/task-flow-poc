@@ -1,6 +1,6 @@
 # task-flow-poc
 
-A PoC for start multiple green thread based on the item of a iterator, then every of this items will be  process on a series of task stages.
+A PoC for start multiple green thread based on the items of a iterator, then every of these items will be  process on a series of task stages.
 
 The communication between stages are performed using `tokio::mpsc`.
 
