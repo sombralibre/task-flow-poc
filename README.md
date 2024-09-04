@@ -29,4 +29,4 @@ impl Conduit for SenderWrapper<UnboundedSender<usize>> {
 }
 ```
 
-The full code example in [app.rs]("/src/bin/app.rs")
+The full code example in [app.rs](/src/bin/app.rs)
